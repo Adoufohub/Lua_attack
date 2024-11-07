@@ -1,0 +1,22 @@
+-- Magnatta Menu inicio
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.Name = "MagnattaMenu"
+
+-- HHTS
+MainFrame.Parent = ScreenGui
+MainFrame.Size = UDim2.new(0.3, 0, 0.2, 0)
+MainFrame.Position = UDim2.new(0.35, 0, 0.4, 0)
+MainFrame.BackgroundColor3 = Color3.new(0.1, 0.1, 0.1)
+
+-- SST
+Title.Parent = MainFrame
+Title.Text = "Magnatta Menu"
+Title.Size = UDim2.new(1, 0, 1, 0)
+Title.BackgroundColor3 = Color3.new(0.2, 0.2, 0.2)
+Title.TextColor3 = Color3.new(1, 1, 1)
+Title.Font = Enum.Font.SourceSansBold
+Title.TextSize = 24
