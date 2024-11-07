@@ -1,0 +1,100 @@
+local DreckMenu = Instance.new("ScreenGui")
+local Fundo = Instance.new("Frame")
+local PlayersButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local ArmasButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local MiscButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local FarmButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+
+-- Configurações de propriedades do menu:
+
+DreckMenu.Name = "PedroxzMenu"
+DreckMenu.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+DreckMenu.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Fundo.Name = "Fundo"
+Fundo.Parent = DreckMenu
+Fundo.BackgroundColor3 = Color3.fromRGB(10, 23, 32)
+Fundo.BorderColor3 = Color3.fromRGB(85, 85, 85)
+Fundo.BorderSizePixel = 2
+Fundo.Position = UDim2.new(0.24239938, 0, 0.161538467, 0)
+Fundo.Size = UDim2.new(0, 495, 0, 338)
+Fundo.Draggable = true
+Fundo.Active = true
+Fundo.Selectable = true
+
+PlayersButton.Name = "PlayersButton"
+PlayersButton.Parent = Fundo
+PlayersButton.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+PlayersButton.BorderSizePixel = 0
+PlayersButton.Position = UDim2.new(0.165909097, 0, 0.0445266142, 0)
+PlayersButton.Size = UDim2.new(0, 74, 0, 17)
+PlayersButton.Font = Enum.Font.Roboto
+PlayersButton.Text = "Menus"
+PlayersButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayersButton.TextScaled = true
+PlayersButton.TextSize = 14.000
+PlayersButton.TextWrapped = true
+
+UICorner.Parent = PlayersButton
+
+ArmasButton.Name = "ArmasButton"
+ArmasButton.Parent = Fundo
+ArmasButton.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+ArmasButton.BorderSizePixel = 0
+ArmasButton.Position = UDim2.new(0.340821803, 0, 0.0445266142, 0)
+ArmasButton.Size = UDim2.new(0, 74, 0, 17)
+ArmasButton.Font = Enum.Font.Roboto
+ArmasButton.Text = "Armas(ACS)"
+ArmasButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArmasButton.TextScaled = true
+ArmasButton.TextSize = 14.000
+ArmasButton.TextWrapped = true
+
+UICorner_2.Parent = ArmasButton
+
+MiscButton.Name = "MiscButton"
+MiscButton.Parent = Fundo
+MiscButton.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+MiscButton.BorderSizePixel = 0
+MiscButton.Position = UDim2.new(0.515233874, 0, 0.0445266142, 0)
+MiscButton.Size = UDim2.new(0, 74, 0, 17)
+MiscButton.Font = Enum.Font.Roboto
+MiscButton.Text = "Troll"
+MiscButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+MiscButton.TextScaled = true
+MiscButton.TextSize = 14.000
+MiscButton.TextWrapped = true
+
+UICorner_3.Parent = MiscButton
+
+FarmButton.Name = "FarmButton"
+FarmButton.Parent = Fundo
+FarmButton.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+FarmButton.BorderSizePixel = 0
+FarmButton.Position = UDim2.new(0.683675528, 0, 0.0445266142, 0)
+FarmButton.Size = UDim2.new(0, 74, 0, 17)
+FarmButton.Font = Enum.Font.Roboto
+FarmButton.Text = "Bypass"
+FarmButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+FarmButton.TextScaled = true
+FarmButton.TextSize = 14.000
+FarmButton.TextWrapped = true
+
+UICorner_4.Parent = FarmButton
+
+TextLabel.Parent = Fundo
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.260092437, 0, 0.141420126, 0)
+TextLabel.Size = UDim2.new(0, 233, 0, 21)
+TextLabel.Font = Enum.Font.DenkOne
+TextLabel.Text = "Pedroxz Menu RP(BETA) - V1"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
